@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 쇼핑몰</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+    	*{
+    		box-sizing: border-box;
+    		margin: 0;
+    		padding: 0;
+    		font-family: 'Noto Sans', sans-serif;
+    	}
+    	.contents{
+    		width: 735px;
+    		margin-right: auto;
+    		margin-left: auto;
+
+    	}
+    	.image{
+    		text-decoration: none;
+    		font-size: 16px;
+    		color: black;
+    		text-align: center;
+
+    		display: block;
+    		float: left;
+    		margin-left: 10px;
+    		margin-right: 10px;
+    	}
+    
+    	.name{
+    		margin-top: 20px;
+    		margin-bottom: 4px;
+    		
+    	}
+    	#title{
+    		margin-top: 60px;
+    		margin-bottom: 60px;
+    		font-size: 24px;
+    		color: #545454;
+    		font-weight: bold;
+    		display:block;
+    		text-align: center;
+    	}
+    	#navbar{
+    		height: 60px;
+    	}
+    	#logo{
+    		margin-left:30px;
+    		line-height: 60px;
+
+    	}
+    	#menu{
+    		float: right;
+    		/*margin-right: 30px;*/
+    	}
+    	#menu li{
+    		list-style: none;
+    		float: left;
+    	}
+    	#menu li a{
+    		text-decoration: none;
+    		color: black;
+    		line-height: 60px;
+    		font-size: 13px;
+    		font-weight: bold;
+    		margin-right: 30px;
+    	}
+    	#menu li a:hover{
+    		display: block;
+    		background-color: #545454;
+    	}
+    	
+    	
+    	#main{
+    		background-image: url("https://i.postimg.cc/zfpx2dhN/hero-header.jpg");
+    		background-size: cover;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		height: 450px;
+    	}
+    	.clearfix:not(:last-child){
+    		height: 80px;
+    	}
+    	.clearfix{
+    		clear: both;
+    	}
+    	.icon{
+    		margin-bottom: 80px;
+    		text-align: center;
+    		margin-top: 120px;
+    		/*margin-left: auto;*/
+    		/*margin-right: auto;*/
+    	}
+    	.icon img{
+    		height: 20px;
+    	}
+    	.insta{
+    		margin: 0 20px;
+    	}
+    	.icon a{
+    		text-decoration: none;
+    	}
+    	.box{
+    		height: 80px;
+    	}
+    </style> 
+
+
+</head>
+<body>
+ <div id="navbar">
+ 	<a id="logo" href="#">
+ 		<img src="https://i.postimg.cc/X7LS6gd2/logo.png" height="20px">
+ 	</a>
+
+ 	<ul id="menu">
+ 	  <li><a href="#">Contact</a></li>
+ 	  <li><a href="#">Shop</a></li>
+ 	  <li><a href="#">Cart</a></li>
+ 	  <li><a href="#">Login</a></li>	
+ 	</ul>
+ </div>
+
+ <div id="main"></div>
+
+ <div id="title">Our New Products</div>
+
+ <div class="contents">
+   	
+ 	<a class="image" href="#">
+ 		<img src="https://i.postimg.cc/dDckjBNc/sunglasses.jpg" width="225">
+ 	 <div class="name">Sunglasses</div>
+ 	 <div class="price">49,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/7Y41TFbL/classic-loafer.jpg" width="225">
+ 	 <div class="name">Classic Loafer</div>
+ 	 <div class="price">99,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/B6DDjp0D/beige-bag.jpg" width="225">
+ 	 <div class="name">Beige Bag</div>
+ 	 <div class="price">69,000</div>
+    </a>
+   <div class="clearfix"></div>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/xT9HdLFJ/sneakers.jpg" width="225">
+ 	 <div class="name">Sneakers</div>
+ 	 <div class="price">79,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/mkmrk1tC/slippers.jpg" width="225">
+ 	 <div class="name">Slippers</div>
+ 	 <div class="price">29,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/4ymDvYWz/wrist-watch.jpg" width="225">
+ 	 <div class="name">Wrist Watch</div>
+ 	 <div class="price">99,000</div>
+    </a>
+   <div class="clearfix"></div>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/fWdnb90N/fedora-hat.jpg" width="225">
+ 	 <div class="name">Fedora Hat</div>
+ 	 <div class="price">39,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/K8qsfGgf/tassel-loafer.jpg" width="225">
+ 	 <div class="name">Tassel Loafer </div>
+ 	 <div class="price">89,000</div>
+    </a>
+    <a class="image" href="#">
+ 		<img src="https://i.postimg.cc/GpvG2zrD/pink-bag.jpg" width="225">
+ 	 <div class="name">Pink Bag</div>
+ 	 <div class="price">79,000</div>
+    </a>
+    <div class="clearfix"></div>
+</div>
+
+<div class="icon">
+	<a href="https://www.facebook.com/"><img src="https://i.postimg.cc/5yM0TmL4/facebook.png">
+	<a href="https://www.instagram.com/"><img class="insta" src="https://i.postimg.cc/NFYspjvL/instagram.png">
+	<a href="https://twitter.com/"><img src="https://i.postimg.cc/8zs1yY9d/twitter.png">
+
+
+
+</body>
+</html>
